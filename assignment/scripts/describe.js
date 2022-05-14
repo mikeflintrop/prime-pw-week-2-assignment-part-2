@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a string.
+// Then we check if name is strictly equal to Mary. Dane is not strictly equal to Mary, so
+// we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +44,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret.
+// We make a variable called code and set it 123 as a number.
+// Then we check if code is strictly equal to 123. 123 is strictly equal to 123, so
+// we console.log 'secret'.
 
 //CODE
 /*
@@ -70,10 +69,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true as a boolean.
+// We make a variable called age and set it 34 as a number.
+// We make a variable called zip and set it 55407 as a number.
+// Then we check if isStudent is strictly equal to true and if zip is greater than 80000.
+// Then we check if isStudent is strictly equal to false or if age is less than 30.
+// Then we check if isStudent is strictly equal to true. True is strictly equal to true, so
+// we console.log 'Welcome to Prime'.
 
 //CODE
 /*
@@ -130,6 +132,10 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX - colorOne and colorTwo are set to wrong colors.
+// Should be  - let colorOne = 'blue'; let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,6 +153,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - || means 'or' not 'and'.
+// Should be - if (temp > 39 && time >= 4) {
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +168,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - comparing minAge to age instead of age to minAge with wrong console.log in each place
+// Should be - if(age >= minAge) {
+                console.log('enter');
+               } else {
+                console.log('no entry');
+               }
 
 if(minAge <= age) {
   console.log('no entry');
