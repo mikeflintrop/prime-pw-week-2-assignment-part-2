@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set it to Dane as a string.
+// We make a variable called name and set it to 'Dane' as a string.
 // Then we check if name is strictly equal to Mary. Dane is not strictly equal to Mary, so
 // we console.log 'How do you do?'.
 
@@ -47,7 +47,9 @@ if (name === 'Mary') {
 // We make a variable called secret.
 // We make a variable called code and set it 123 as a number.
 // Then we check if code is strictly equal to 123. 123 is strictly equal to 123, so
-// we console.log 'secret'.
+// the variable secret is reassigned with value "secret" and the variable code is reassigned with
+// value multiplied by 2 (which is 246.) Then we check if code value (246) is greater than 250.
+// Then we console.log 'secret'.
 
 //CODE
 /*
