@@ -44,12 +44,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called secret.
+// Firt we initialize the variable called secret.
 // We make a variable called code and set it 123 as a number.
 // Then we check if code is strictly equal to 123. 123 is strictly equal to 123, so
-// the variable secret is reassigned with value "secret" and the variable code is reassigned with
-// value multiplied by 2 (which is 246.) Then we check if code value (246) is greater than 250.
-// Then we console.log 'secret'.
+// the variable secret is reassigned with value "super" and the variable code is reassigned with
+// value multiplied by 2 (which is 246). Then we check if code value (246) is greater than 250.
+// It is not, so then we console.log the variable called secret which logs the value super.
 
 //CODE
 /*
@@ -74,10 +74,12 @@ console.log(secret)
 // We make a variable called isStudent and set it to true as a boolean.
 // We make a variable called age and set it 34 as a number.
 // We make a variable called zip and set it 55407 as a number.
-// Then we check if isStudent is strictly equal to true and if zip is greater than 80000.
-// Then we check if isStudent is strictly equal to false or if age is less than 30.
+// Then we check if isStudent is strictly equal to true and if zip is greater than 80000, 
+// but its not greater than 80000 so we move on to the next.
+// Then we check if isStudent is strictly equal to false or if age is less than 30, 
+// but its not strictly equal to false nor less than 30 so we move on to the next.
 // Then we check if isStudent is strictly equal to true. True is strictly equal to true, so
-// we console.log 'Welcome to Prime'.
+// we console.log 'Welcome to Prime!'. The last else statement is never reached.
 
 //CODE
 /*
@@ -135,8 +137,15 @@ if (number >= 2) {
 
 /*
 
-//FIX - colorOne and colorTwo are set to wrong colors.
-// Should be  - let colorOne = 'blue'; let colorTwo = 'red';
+//FIX - colorOne and colorTwo are set to wrong colors. Also, colorTwo isn't changed to purple.
+// Should be  - let colorOne = 'blue'; 
+                let colorTwo = 'red';
+                let mix = true;
+
+                if (mix) {
+                  colorOne = 'purple';
+                  colorTwo = 'purple';
+                }
 
 let colorOne = 'red';
 let colorTwo = 'blue';
